@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<cascade type_id="opencv-cascade-classifier">
+  <stageType>BOOST</stageType>
+  <featureType>LBP</featureType>
+  <height>20</height>
+  <width>20</width>
+  <stageParams>
+    <maxWeakCount>100</maxWeakCount>
+  </stageParams>
+  <featureParams>
+    <maxCatCount>256</maxCatCount>
+  </featureParams>
+  <stages>
+    <!-- stage 0 -->
+    <_>
+      <maxWeakCount>3</maxWeakCount>
+      <stageThreshold>-0.5</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 0 1 2 0 -1 -1 1 2 -3 -0. +0 0. -0.5</internalNodes>
+          <leafValues>
+            -0.5 0.5</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 1 2 0 -1 -1 1 2 -3 -0. +0 0. -0.5</internalNodes>
+          <leafValues>
+            -0.5 0.5</leafValues></_></weakClassifiers></_></stages>
+  <features>
+    <_>
+      <rect>
+        0 0 20 20</rect></_></features>
+</cascade>
+</opencv_storage>
